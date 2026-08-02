@@ -1,0 +1,29 @@
+{
+  "entities": {
+    "reviews": {
+      "title": "reviews",
+      "description": "User book reviews",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "title": { "type": "string" },
+        "author": { "type": "string" },
+        "genre": { "type": "string" },
+        "date": { "type": "string" },
+        "rating": { "type": "number" },
+        "review": { "type": "string" },
+        "status": { "type": "string" },
+        "favoriteQuotes": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "coverUrl": { "type": "string" },
+        "coverColor": { "type": "string" },
+        "pages": { "type": "number" },
+        "createdAt": { "type": "number" }
+      },
+      "required": ["userId", "title", "author", "rating", "review"]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Mis Libros",
+  "description": "Aplicación para registrar y consultar reseñas de libros leídos, calificaciones, géneros y reflexiones personales.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
