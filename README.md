@@ -1,3 +1,3 @@
-# Diario de lectua
+# Diario de lectura
 
 
